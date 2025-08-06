@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <title>Diseño y desarrollo web</title>
-  </head>
-  <body>
-    <p>Hola mundo</p>
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Diseño y desarrollo web</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/03a47b2a98.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+        <div class="py-[5dvh] px-[2dvw] bg-white w-full">
+            <div class="my-0 mx-[5%] flex justify-between">
+                <img src="imgs/logo.png" class="h-[5dvh]">
+                <div class="flex flex-col items-center" onclick="alert('Tu perfil')">
+                    <i class="fa fa-user mb-[10px]"></i>
+                    <p class="text-red-400">José Gulmanelli</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-[4dvh] mx-[10dvw]">
+            <p>Hola mundo</p>
+        </div>
+    </body>
 </html>
